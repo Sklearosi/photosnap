@@ -87,13 +87,13 @@ const Home = () => {
                 </div>
                 <div className=" w-10/12 m-auto text-center mt-16">
                 <img className=" m-auto" src="/assets/features/desktop/no-limit.svg" alt="" />
-                <p className="text-xl font-bold leading-6 mt-16">100% Responsive</p>
-                <p className="text-base font-normal leading-5 mt-10">No matter which the device you’re on, our site is fully responsive and stories look beautiful on any screen.</p>
+                <p className="text-xl font-bold leading-6 mt-16">No Photo Upload Limit</p>
+                <p className="text-base font-normal leading-5 mt-10">Our tool has no limits on uploads or bandwidth. Freely upload in bulk and share all of your stories in one go.</p>
                 </div>
                 <div className=" w-10/12 m-auto text-center mt-16">
                 <img className=" m-auto" src="/assets/features/desktop/embed.svg" alt="" />
-                <p className="text-xl font-bold leading-6 mt-16">100% Responsive</p>
-                <p className="text-base font-normal leading-5 mt-10">No matter which the device you’re on, our site is fully responsive and stories look beautiful on any screen.</p>
+                <p className="text-xl font-bold leading-6 mt-16">Available to Embed</p>
+                <p className="text-base font-normal leading-5 mt-10">Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and more. </p>
                 </div>
             </div>
         </div>

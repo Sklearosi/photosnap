@@ -26,7 +26,7 @@ const Footer = () => {
                         behavior: 'smooth' 
                       });
                 }}>STORIES</Link>
-                <Link to='/' onClick={() => {
+                <Link to="/features" onClick={() => {
                     window.scrollTo({
                         top: 0,
                         behavior: 'smooth' 

@@ -11,7 +11,8 @@ export default {
         menuHeight:"253px",
         heroHeight:"293px",
         blackDiv:"419px",
-        mobHeight:"375px"
+        mobHeight:"375px",
+        features:"300px"
       },
       transitionDuration: {
         '500': '0.5s',

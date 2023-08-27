@@ -26,8 +26,12 @@ const Header = () => {
           <Link to='/stories' onClick={() => {
             setMenuOpen(false)
           }}>STORIES</Link>
-          <Link to='/stories'>FEATURES</Link>
-          <Link to='/stories'>PRICING</Link>
+          <Link to="/features" onClick={() => {
+            setMenuOpen(false)
+          }}>FEATURES</Link>
+          <Link to='/stories' onClick={() => {
+            setMenuOpen(false)
+          }}>PRICING</Link>
         </ul>
         <button className="block w-80 h-12 bg-black m-auto mt-5 text-white text-center text-lg font-bold leading-5 tracking-wider">
           GET AN INVITE
