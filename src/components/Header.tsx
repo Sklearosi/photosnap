@@ -21,7 +21,7 @@ const Header = () => {
       <div className={` absolute bg-white w-full  overflow-y-hidden  text-center transition-all duration-500 ${!menuOpen ? 'h-0  overflow-hidden transition-all duration-500' :  ' h-menuHeight overflow-auto pt-6'}`}>
         
         
-        <ul className="grid justify-center items-center gap-3 text-center pb-5 w-10/12 m-auto text-15 font-bold leading-20 tracking-widest">
+        <ul className="grid justify-center items-center gap-3 text-center pb-5 w-10/12 m-auto text-15 font-bold leading-20 tracking-widest border-b border-black">
           <li>STORIES</li>
           <li>FEATURES</li>
           <li>PRICING</li>

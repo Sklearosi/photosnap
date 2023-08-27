@@ -29,6 +29,56 @@ const Home = () => {
                     <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14"><g fill="none" fillRule="evenodd" stroke="#000"><path d="M0 7h41.864M35.428 1l6 6-6 6"/></g></svg></div>
                 </div>
             </div>
+            <div className=" text-white">
+                <div style={{backgroundImage: 'url(/assets/stories/mobile/mountains.jpg)'}} className="h-mobHeight bg-cover bg-center relative">
+                    <div className=" absolute bottom-7 w-10/12 right-0 left-0 m-auto">
+                        <div className=" border-b border-white pb-3">
+                        <p>The Mountains</p>
+                        <p>by John Appleseed</p>
+                        </div>
+                        <div className=" flex justify-between items-center pt-3">
+                            <p>READ STORY</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14"><g fill="none" fillRule="evenodd" stroke="#FFFFFF"><path d="M0 7h41.864M35.428 1l6 6-6 6"/></g></svg>
+                        </div>
+                    </div>
+                </div>
+                <div style={{backgroundImage: 'url(/assets/stories/mobile/cityscapes.jpg)'}} className="h-mobHeight bg-cover bg-center relative">
+                    <div className=" absolute bottom-7 w-10/12 right-0 left-0 m-auto">
+                        <div className=" border-b border-white pb-3">
+                        <p>Sunset Cityscapes</p>
+                        <p>by Benjamin Cruz</p>
+                        </div>
+                        <div className=" flex justify-between items-center pt-3">
+                            <p>READ STORY</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14"><g fill="none" fillRule="evenodd" stroke="#FFFFFF"><path d="M0 7h41.864M35.428 1l6 6-6 6"/></g></svg>
+                        </div>
+                    </div>
+                </div>
+                <div style={{backgroundImage: 'url(/assets/stories/mobile/18-days-voyage.jpg)'}} className="h-mobHeight bg-cover bg-center relative">
+                    <div className=" absolute bottom-7 w-10/12 right-0 left-0 m-auto">
+                        <div className=" border-b border-white pb-3">
+                        <p>18 Days Voyage</p>
+                        <p>by Alexei Borodin</p>
+                        </div>
+                        <div className=" flex justify-between items-center pt-3">
+                            <p>READ STORY</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14"><g fill="none" fillRule="evenodd" stroke="#FFFFFF"><path d="M0 7h41.864M35.428 1l6 6-6 6"/></g></svg>
+                        </div>
+                    </div>
+                </div>
+                <div style={{backgroundImage: 'url(/assets/stories/mobile/architecturals.jpg)'}} className="h-mobHeight bg-cover bg-center relative">
+                    <div className=" absolute bottom-7 w-10/12 right-0 left-0 m-auto">
+                        <div className=" border-b border-white pb-3">
+                        <p>Architecturals</p>
+                        <p>by Samantha Brooke</p>
+                        </div>
+                        <div className=" flex justify-between items-center pt-3">
+                            <p>READ STORY</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14"><g fill="none" fillRule="evenodd" stroke="#FFFFFF"><path d="M0 7h41.864M35.428 1l6 6-6 6"/></g></svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

@@ -10,7 +10,8 @@ export default {
         headerHeight:"72px",
         menuHeight:"253px",
         heroHeight:"293px",
-        blackDiv:"419px"
+        blackDiv:"419px",
+        mobHeight:"375px"
       },
       transitionDuration: {
         '500': '0.5s',
