@@ -1,4 +1,5 @@
 import  { useState } from 'react';
+import { Link } from "react-router-dom"
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -22,9 +23,11 @@ const Header = () => {
         
         
         <ul className="grid justify-center items-center gap-3 text-center pb-5 w-10/12 m-auto text-15 font-bold leading-20 tracking-widest border-b border-black">
-          <li>STORIES</li>
-          <li>FEATURES</li>
-          <li>PRICING</li>
+          <Link to='/stories' onClick={() => {
+            setMenuOpen(false)
+          }}>STORIES</Link>
+          <Link to='/stories'>FEATURES</Link>
+          <Link to='/stories'>PRICING</Link>
         </ul>
         <button className="block w-80 h-12 bg-black m-auto mt-5 text-white text-center text-lg font-bold leading-5 tracking-wider">
           GET AN INVITE
