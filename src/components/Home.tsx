@@ -79,6 +79,23 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <div className="mt-16">
+                <div className=" w-10/12 m-auto text-center">
+                <img className=" m-auto" src="/assets/features/desktop/responsive.svg" alt="" />
+                <p className="text-xl font-bold leading-6 mt-16">100% Responsive</p>
+                <p className="text-base font-normal leading-5 mt-10">No matter which the device you’re on, our site is fully responsive and stories look beautiful on any screen.</p>
+                </div>
+                <div className=" w-10/12 m-auto text-center mt-16">
+                <img className=" m-auto" src="/assets/features/desktop/no-limit.svg" alt="" />
+                <p className="text-xl font-bold leading-6 mt-16">100% Responsive</p>
+                <p className="text-base font-normal leading-5 mt-10">No matter which the device you’re on, our site is fully responsive and stories look beautiful on any screen.</p>
+                </div>
+                <div className=" w-10/12 m-auto text-center mt-16">
+                <img className=" m-auto" src="/assets/features/desktop/embed.svg" alt="" />
+                <p className="text-xl font-bold leading-6 mt-16">100% Responsive</p>
+                <p className="text-base font-normal leading-5 mt-10">No matter which the device you’re on, our site is fully responsive and stories look beautiful on any screen.</p>
+                </div>
+            </div>
         </div>
     )
 }
