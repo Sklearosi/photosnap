@@ -29,7 +29,7 @@ const Header = () => {
           <Link to="/features" onClick={() => {
             setMenuOpen(false)
           }}>FEATURES</Link>
-          <Link to='/stories' onClick={() => {
+          <Link to='/pricing' onClick={() => {
             setMenuOpen(false)
           }}>PRICING</Link>
         </ul>

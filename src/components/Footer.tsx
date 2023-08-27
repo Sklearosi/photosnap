@@ -32,7 +32,7 @@ const Footer = () => {
                         behavior: 'smooth' 
                       });
                 }}>FEATURES</Link>
-                <Link to='/' onClick={() => {
+                <Link to='/pricing' onClick={() => {
                     window.scrollTo({
                         top: 0,
                         behavior: 'smooth' 

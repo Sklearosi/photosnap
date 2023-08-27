@@ -19,6 +19,9 @@ export default {
       },
       fontFamily:{
         dmSans: "'DM Sans', sans-serif"
+      },
+      backgroundColor:{
+        lightGray: '#DFDFDF'
       }
     },
   },
