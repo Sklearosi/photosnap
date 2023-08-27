@@ -3,15 +3,15 @@
 const Stories = () => {
     return(
         <div>
-            <div>
+            <div className="">
                 <div style={{backgroundImage: 'url(/assets/stories/mobile/moon-of-appalacia.jpg)'}} className=" h-heroHeight bg-cover bg-center"></div>
-                <div className=" bg-black w-full h-blackDiv ">
+                <div className=" bg-black w-full h-full pb-10">
                     <p className="text-xs font-bold leading-4 tracking-wide text-white ml-6 pt-10">LAST MONTH’S FEATURED STORY</p>
                     <h1 className="text-4xl font-bold leading-2 tracking-widest text-white uppercase pt-8 ml-6">Create and share your photo stories.  </h1>
                     <p className=" text-white ml-6 mt-5">March 2nd 2020
                     by John Appleseed</p>
                     <p className="text-base font-normal leading-5 text-white mt-5 ml-6 w-11/12">The dissected plateau area, while not actually made up of geological mountains, is popularly called "mountains," especially in eastern Kentucky and West Virginia, and while the ridges are not high, the terrain is extremely rugged.</p>
-                    <div className="flex w-40 justify-between items-center mt-10 ml-6"><p className="text-xs font-bold leading-4 tracking-wide text-white">READ THE STORY</p><svg xmlns="http://www.w3.org/2000/svg" width="43" height="14"><g fill="none" fillRule="evenodd" stroke="#FFFFFF"><path d="M0 7h41.864M35.428 1l6 6-6 6"/></g></svg></div>
+                    <div className="flex w-40 justify-between items-center mt-5 ml-6"><p className="text-xs font-bold leading-4 tracking-wide text-white">READ THE STORY</p><svg xmlns="http://www.w3.org/2000/svg" width="43" height="14"><g fill="none" fillRule="evenodd" stroke="#FFFFFF"><path d="M0 7h41.864M35.428 1l6 6-6 6"/></g></svg></div>
                 </div>
             </div>
             <div className=" text-white">
