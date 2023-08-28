@@ -69,8 +69,8 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className=" text-white">
-                <div style={{backgroundImage: `url(/assets/stories/${stories}/mountains.jpg)`}} className="h-mobHeight bg-cover bg-center relative">
+            <div className=" text-white md:grid grid-cols-2">
+                <div style={{backgroundImage: `url(/assets/stories/${stories}/mountains.jpg)`}} className="h-mobHeight bg-cover bg-center relative md:h-storiesHomeTablet">
                     <div className=" absolute bottom-7 w-10/12 right-0 left-0 m-auto">
                         <div className=" border-b border-white pb-3">
                         <p>The Mountains</p>
@@ -82,7 +82,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div style={{backgroundImage: `url(/assets/stories/${stories}/cityscapes.jpg)`}} className="h-mobHeight bg-cover bg-center relative">
+                <div style={{backgroundImage: `url(/assets/stories/${stories}/cityscapes.jpg)`}} className="h-mobHeight bg-cover bg-center relative md:h-storiesHomeTablet">
                     <div className=" absolute bottom-7 w-10/12 right-0 left-0 m-auto">
                         <div className=" border-b border-white pb-3">
                         <p>Sunset Cityscapes</p>
@@ -94,7 +94,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div style={{backgroundImage: `url(/assets/stories/${stories}/18-days-voyage.jpg)`}} className="h-mobHeight bg-cover bg-center relative">
+                <div style={{backgroundImage: `url(/assets/stories/${stories}/18-days-voyage.jpg)`}} className="h-mobHeight bg-cover bg-center relative md:h-storiesHomeTablet">
                     <div className=" absolute bottom-7 w-10/12 right-0 left-0 m-auto">
                         <div className=" border-b border-white pb-3">
                         <p>18 Days Voyage</p>
@@ -106,7 +106,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div style={{backgroundImage: `url(/assets/stories/${stories}/architecturals.jpg)`}} className="h-mobHeight bg-cover bg-center relative">
+                <div style={{backgroundImage: `url(/assets/stories/${stories}/architecturals.jpg)`}} className="h-mobHeight bg-cover bg-center relative md:h-storiesHomeTablet">
                     <div className=" absolute bottom-7 w-10/12 right-0 left-0 m-auto">
                         <div className=" border-b border-white pb-3">
                         <p>Architecturals</p>
@@ -119,7 +119,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="mt-16 pb-20">
+            <div className="m-auto mt-16 pb-20 w-9/12 ">
                 <div className=" w-10/12 m-auto text-center">
                 <img className=" m-auto" src="/assets/features/desktop/responsive.svg" alt="" />
                 <p className="text-xl font-bold leading-6 mt-16">100% Responsive</p>

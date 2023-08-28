@@ -14,7 +14,8 @@ export default {
         mobHeight:"375px",
         features:"300px",
         tabletHeight: "650px",
-        forHomeStories: "600px"
+        forHomeStories: "600px",
+        storiesHomeTablet: "350px"
       },
       transitionDuration: {
         '500': '0.5s',
