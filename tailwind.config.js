@@ -12,7 +12,9 @@ export default {
         heroHeight:"293px",
         blackDiv:"419px",
         mobHeight:"375px",
-        features:"300px"
+        features:"300px",
+        tabletHeight: "650px",
+        forHomeStories: "600px"
       },
       transitionDuration: {
         '500': '0.5s',
