@@ -3,18 +3,18 @@ import { useEffect, useState } from "react"
 const Stories = () => {
 
 
-   const [media, setMedia] = useState <string> (`mobile`)
+   
     const [stories, setStories] = useState <string> (`mobile`)
     
     const updateMedia = () => {
         if (window.innerWidth < 768 ) {
-          setMedia(`mobile`);
+         
           setStories(`mobile`)
         } else if(window.innerWidth >= 768 && window.innerWidth < 1280) {
-          setMedia(`tablet`);
+         
           setStories(`desktop`)
         } else if(window.innerWidth >= 1280 ){
-            setMedia(`desktop`)
+            
             setStories(`desktop`)
         }
       };
