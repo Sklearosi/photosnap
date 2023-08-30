@@ -9,10 +9,10 @@ const Features = () => {
         if (window.innerWidth < 768 ) {
           setMedia('mobile');
          
-        } else if(window.innerWidth >= 768 && window.innerWidth < 1280) {
+        } else if(window.innerWidth >= 768 && window.innerWidth < 1080) {
           setMedia('tablet');
           
-        } else if(window.innerWidth >= 1280 ){
+        } else if(window.innerWidth >= 1080 ){
             setMedia('desktop')
             
         }
@@ -35,16 +35,16 @@ const Features = () => {
         <div>
             <div>
             <div className="md:grid md:grid-cols-3 md:h-featuresBegining">
-                <div style={{backgroundImage: `url(/assets/features/${media}/hero.jpg)`}} className=" h-heroHeight bg-cover bg-center md:order-2 md:h-auto"></div>
-                <div className=" bg-black w-full h-blackDiv md:order-1 md:col-span-2 md:h-auto ">
+                <div style={{backgroundImage: `url(/assets/features/${media}/hero.jpg)`}} className=" h-heroHeight bg-cover bg-center md:order-2 md:h-auto lg:col-span-2"></div>
+                <div className=" bg-black w-full h-blackDiv md:order-1 md:col-span-2 lg:col-span-1 md:h-auto ">
                 <div className=" md:w-10/12 m-auto md:mt-20">
-                    <h1 className="text-4xl font-bold leading-2 tracking-widest text-white uppercase pt-16 ml-6 md:text-6xl">FEATURES</h1>
+                    <h1 className="text-4xl font-bold leading-2 tracking-widest text-white uppercase pt-16 ml-6 md:text-6xl lg:text-3xl">FEATURES</h1>
                     <p className="text-base font-normal leading-5 text-white mt-9 ml-6 w-11/12">We make sure all of our features are designed to be loved by every aspiring and even professional photograpers who wanted to share their stories.</p>
                     </div>
                 </div>
                 </div>
             </div>
-            <div className="mt-16 pb-20 md:grid md:grid-cols-2">
+            <div className="mt-16 pb-20 md:grid md:grid-cols-2 lg:grid-cols-3">
                 <div className=" w-10/12 m-auto text-center">
                 <img className=" m-auto  " src="/assets/features/desktop/responsive.svg" alt="" />
                 <p className="text-xl font-bold leading-6 mt-16">100% Responsive</p>
@@ -55,7 +55,7 @@ const Features = () => {
                 <p className="text-xl font-bold leading-6 mt-16">No Photo Upload Limit</p>
                 <p className="text-base font-normal leading-5 mt-10">Our tool has no limits on uploads or bandwidth. Freely upload in bulk and share all of your stories in one go.</p>
                 </div>
-                <div className=" w-10/12 m-auto text-center mt-16">
+                <div className=" w-10/12 m-auto text-center mt-16 lg:-mt-0">
                 <img className=" m-auto" src="/assets/features/desktop/embed.svg" alt="" />
                 <p className="text-xl font-bold leading-6 mt-16">Available to Embed</p>
                 <p className="text-base font-normal leading-5 mt-10">Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and more. </p>
