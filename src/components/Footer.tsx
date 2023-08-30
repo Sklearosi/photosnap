@@ -15,25 +15,25 @@ const Footer = () => {
             <img src="/assets/shared/desktop/instagram.svg" alt="" />
             </div>
             <div className=" grid gap-3 text-white text-center mt-14 text-xs font-bold leading-4 tracking-widest md:absolute md:flex md:mt-0 md:top-12">
-                <Link to='/' onClick={() => {
+                <Link className=" hover:opacity-50 transition-all duration-500" to='/' onClick={() => {
                     window.scrollTo({
                         top: 0,
                         behavior: 'smooth' 
                       });
                 }}>HOME</Link>
-                <Link to='/stories' onClick={() => {
+                <Link className=" hover:opacity-50 transition-all duration-500" to='/stories' onClick={() => {
                     window.scrollTo({
                         top: 0,
                         behavior: 'smooth' 
                       });
                 }}>STORIES</Link>
-                <Link to="/features" onClick={() => {
+                <Link className=" hover:opacity-50 transition-all duration-500" to="/features" onClick={() => {
                     window.scrollTo({
                         top: 0,
                         behavior: 'smooth' 
                       });
                 }}>FEATURES</Link>
-                <Link to='/pricing' onClick={() => {
+                <Link className=" hover:opacity-50 transition-all duration-500" to='/pricing' onClick={() => {
                     window.scrollTo({
                         top: 0,
                         behavior: 'smooth' 
