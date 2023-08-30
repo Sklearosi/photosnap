@@ -17,17 +17,17 @@ const Header = () => {
           alt=""
         />
         <ul className=' w-64 justify-between items-center hidden md:flex'>
-          <Link to='/stories' onClick={() => {
+          <Link className=' hover:opacity-50' to='/stories' onClick={() => {
             setMenuOpen(false)
           }}>STORIES</Link>
-          <Link to="/features" onClick={() => {
+          <Link className=' hover:opacity-50' to="/features" onClick={() => {
             setMenuOpen(false)
           }}>FEATURES</Link>
-          <Link to='/pricing' onClick={() => {
+          <Link className=' hover:opacity-50' to='/pricing' onClick={() => {
             setMenuOpen(false)
           }}>PRICING</Link>
           </ul>
-          <button className=" h-12 bg-black   text-white text-center text-lg font-bold leading-5 tracking-wider mt-0 w-40 mr-4 hidden md:block">
+          <button className=" hover:bg-[#DFDFDF] hover:text-black h-12 bg-black   text-white text-center text-lg font-bold leading-5 tracking-wider mt-0 w-40 mr-4 hidden md:block">
           GET AN INVITE
         </button>
       </div>
