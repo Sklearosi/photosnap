@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className=''>
       <div className=" w-full flex justify-between items-center h-headerHeight">
-        <img className="ml-4" src="/assets/shared/desktop/logo.svg" alt="" />
+        <Link to='/'><img className="ml-4" src="/assets/shared/desktop/logo.svg" alt="" /></Link>
         <img
           onClick={() => {
             setMenuOpen(!menuOpen);
