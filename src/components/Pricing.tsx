@@ -96,7 +96,7 @@ const Pricing = () => {
                     <p className='mt-5 text-base font-normal leading-5'>Includes basic usage of our platform. Recommended for new and aspiring photographers.</p>
                     </div>
                     <div className='md:absolute md:right-0 md:top-2 lg:bottom-22 lg:top-[unset] lg:left-0 lg:right-0 lg:m-auto'>
-                    <p className='text-4xl font-bold leading-12 tracking-[4.166666507720947px] mt-8 md:text-3xl'>{price.basic}</p>
+                    <p className='text-4xl font-bold leading-12 tracking-[4.166666507720947px] mt-8 md:text-3xl'>{price.pro}</p>
                     <p className='mt-2'>per month</p>
                     </div>
                     <button className='hover:bg-lightGray transition-all duration-500 text-black bg-white w-60 h-10 text-center block m-auto mt-10 md:absolute md:left-0 md:m-0  md:bottom-0 md:top-44 lg:bottom-12 lg:top-[unset] lg:left-0 lg:right-0 lg:m-auto'>PICK PLAN</button>
@@ -109,7 +109,7 @@ const Pricing = () => {
                     <p className='mt-5 text-base font-normal leading-5'>Includes basic usage of our platform. Recommended for new and aspiring photographers.</p>
                     </div>
                     <div className='md:absolute md:right-0 md:top-2 lg:bottom-22 lg:top-[unset] lg:left-0 lg:right-0 lg:m-auto'>
-                    <p className='text-4xl font-bold leading-12 tracking-[4.166666507720947px] mt-8 md:text-3xl'>{price.basic}</p>
+                    <p className='text-4xl font-bold leading-12 tracking-[4.166666507720947px] mt-8 md:text-3xl'>{price.business}</p>
                     <p className='mt-2'>per month</p>
                     </div>
                     <button className='hover:bg-white hover:text-black transition-all duration-500 text-white bg-black w-60 h-10 text-center block m-auto mt-10 md:absolute md:left-0 md:m-0  md:bottom-0 md:top-44 lg:bottom-12 lg:top-[unset] lg:left-0 lg:right-0 lg:m-auto'>PICK PLAN</button>
