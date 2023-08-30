@@ -33,7 +33,7 @@ const Stories = () => {
       }, []); 
 
     return(
-        <div>
+        <div className="">
             <div className=" relative">
                 <div style={{backgroundImage: `url(/assets/stories/${stories}/moon-of-appalacia.jpg)`}} className=" h-heroHeight bg-cover bg-center md:h-tabletHeight"></div>
                 <div className=" bg-black w-full h-full pb-10 md:absolute md:z-10 md:top-0 md:bg-transparent md:pb-0 md:w-80 md:mt-24">

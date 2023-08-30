@@ -26,6 +26,9 @@ export default {
       },
       backgroundColor:{
         lightGray: '#DFDFDF'
+      },
+      width: {
+        '79' : "289px"
       }
     },
   },
