@@ -89,7 +89,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="md:h-forHomeStories md:grid md:grid-cols-3">
+      <div className="md:h-forHomeStories md:grid md:grid-cols-3 ">
         <div
           style={{
             backgroundImage: `url(/assets/home/${media}/designed-for-everyone.jpg)`,
@@ -119,12 +119,12 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className=" text-white md:grid grid-cols-2 lg:grid-cols-4 relative">
+      <div className=" text-white md:grid grid-cols-2 lg:grid-cols-4 relative pb-3">
         <div
           style={{
             backgroundImage: `url(/assets/stories/${stories}/mountains.jpg)`,
           }}
-          className="h-mobHeight bg-cover bg-center relative md:h-storiesHomeTablet hover:-mt-3 transition-all duration-500 cursor-pointer"
+          className="h-mobHeight bg-cover bg-center relative md:h-storiesHomeTablet hover:-mt-3 hover:mb-3 transition-all duration-500 cursor-pointer"
         >
           <div className=" absolute bottom-7 w-10/12 right-0 left-0 m-auto hover:-mt-3 transition-all duration-500 cursor-pointer">
             <div className=" border-b border-white pb-3">
@@ -145,7 +145,7 @@ const Home = () => {
           style={{
             backgroundImage: `url(/assets/stories/${stories}/cityscapes.jpg)`,
           }}
-          className="h-mobHeight bg-cover bg-center relative md:h-storiesHomeTablet hover:-mt-3 transition-all duration-500 cursor-pointer"
+          className="h-mobHeight bg-cover bg-center relative md:h-storiesHomeTablet hover:-mt-3 hover:mb-3 transition-all duration-500 cursor-pointer"
         >
           <div className=" absolute bottom-7 w-10/12 right-0 left-0 m-auto">
             <div className=" border-b border-white pb-3">
@@ -166,7 +166,7 @@ const Home = () => {
           style={{
             backgroundImage: `url(/assets/stories/${stories}/18-days-voyage.jpg)`,
           }}
-          className="h-mobHeight bg-cover bg-center relative md:h-storiesHomeTablet hover:-mt-3 transition-all duration-500 cursor-pointer"
+          className="h-mobHeight bg-cover bg-center relative md:h-storiesHomeTablet hover:-mt-3 hover:mb-3 transition-all duration-500 cursor-pointer"
         >
           <div className=" absolute bottom-7 w-10/12 right-0 left-0 m-auto">
             <div className=" border-b border-white pb-3">
@@ -187,7 +187,7 @@ const Home = () => {
           style={{
             backgroundImage: `url(/assets/stories/${stories}/architecturals.jpg)`,
           }}
-          className="h-mobHeight bg-cover bg-center relative md:h-storiesHomeTablet hover:-mt-3 transition-all duration-500 cursor-pointer"
+          className="h-mobHeight bg-cover bg-center relative md:h-storiesHomeTablet hover:-mt-3 hover:mb-3 transition-all duration-500 cursor-pointer"
         >
           <div className=" absolute bottom-7 w-10/12 right-0 left-0 m-auto">
             <div className=" border-b border-white pb-3">

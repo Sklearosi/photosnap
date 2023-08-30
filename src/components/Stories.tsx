@@ -65,7 +65,7 @@ const Stories = () => {
           style={{
             backgroundImage: `url(/assets/stories/${stories}/mountains.jpg)`,
           }}
-          className="h-mobHeight bg-cover bg-center relative cursor-pointer hover:-mt-3 transition-all duration-500"
+          className="h-mobHeight bg-cover bg-center relative cursor-pointer hover:-mt-3 hover:mb-3  transition-all duration-500"
         >
           <div className=" absolute bottom-7 w-10/12 right-0 left-0 m-auto">
             <div className=" border-b border-white pb-3">
@@ -89,7 +89,7 @@ const Stories = () => {
           style={{
             backgroundImage: `url(/assets/stories/${stories}/cityscapes.jpg)`,
           }}
-          className="h-mobHeight bg-cover bg-center relative cursor-pointer hover:-mt-3 transition-all duration-500"
+          className="h-mobHeight bg-cover bg-center relative cursor-pointer hover:-mt-3 hover:mb-3  transition-all duration-500"
         >
           <div className=" absolute bottom-7 w-10/12 right-0 left-0 m-auto">
             <div className=" border-b border-white pb-3">
@@ -113,7 +113,7 @@ const Stories = () => {
           style={{
             backgroundImage: `url(/assets/stories/${stories}/18-days-voyage.jpg)`,
           }}
-          className="h-mobHeight bg-cover bg-center relative cursor-pointer hover:-mt-3 transition-all duration-500"
+          className="h-mobHeight bg-cover bg-center relative cursor-pointer hover:-mt-3 hover:mb-3  transition-all duration-500"
         >
           <div className=" absolute bottom-7 w-10/12 right-0 left-0 m-auto">
             <div className=" border-b border-white pb-3">
@@ -137,7 +137,7 @@ const Stories = () => {
           style={{
             backgroundImage: `url(/assets/stories/${stories}/architecturals.jpg)`,
           }}
-          className="h-mobHeight bg-cover bg-center relative cursor-pointer hover:-mt-3 transition-all duration-500"
+          className="h-mobHeight bg-cover bg-center relative cursor-pointer hover:-mt-3 hover:mb-3  transition-all duration-500"
         >
           <div className=" absolute bottom-7 w-10/12 right-0 left-0 m-auto">
             <div className=" border-b border-white pb-3">
@@ -161,7 +161,7 @@ const Stories = () => {
           style={{
             backgroundImage: `url(/assets/stories/${stories}/world-tour.jpg)`,
           }}
-          className="h-mobHeight bg-cover bg-center relative cursor-pointer hover:-mt-3 transition-all duration-500"
+          className="h-mobHeight bg-cover bg-center relative cursor-pointer hover:-mt-3 hover:mb-3  transition-all duration-500"
         >
           <div className=" absolute bottom-7 w-10/12 right-0 left-0 m-auto">
             <div className=" border-b border-white pb-3">
@@ -185,7 +185,7 @@ const Stories = () => {
           style={{
             backgroundImage: `url(/assets/stories/${stories}/unforeseen-corners.jpg)`,
           }}
-          className="h-mobHeight bg-cover bg-center relative cursor-pointer hover:-mt-3 transition-all duration-500"
+          className="h-mobHeight bg-cover bg-center relative cursor-pointer hover:-mt-3 hover:mb-3  transition-all duration-500"
         >
           <div className=" absolute bottom-7 w-10/12 right-0 left-0 m-auto">
             <div className=" border-b border-white pb-3">
@@ -209,7 +209,7 @@ const Stories = () => {
           style={{
             backgroundImage: `url(/assets/stories/${stories}/king-on-africa.jpg)`,
           }}
-          className="h-mobHeight bg-cover bg-center relative cursor-pointer hover:-mt-3 transition-all duration-500"
+          className="h-mobHeight bg-cover bg-center relative cursor-pointer hover:-mt-3 hover:mb-3  transition-all duration-500"
         >
           <div className=" absolute bottom-7 w-10/12 right-0 left-0 m-auto">
             <div className=" border-b border-white pb-3">
@@ -233,7 +233,7 @@ const Stories = () => {
           style={{
             backgroundImage: `url(/assets/stories/${stories}/trip-to-nowhere.jpg)`,
           }}
-          className="h-mobHeight bg-cover bg-center relative cursor-pointer hover:-mt-3 transition-all duration-500"
+          className="h-mobHeight bg-cover bg-center relative cursor-pointer hover:-mt-3 hover:mb-3  transition-all duration-500"
         >
           <div className=" absolute bottom-7 w-10/12 right-0 left-0 m-auto">
             <div className=" border-b border-white pb-3">
@@ -257,7 +257,7 @@ const Stories = () => {
           style={{
             backgroundImage: `url(/assets/stories/${stories}/rage-of-the-sea.jpg)`,
           }}
-          className="h-mobHeight bg-cover bg-center relative cursor-pointer hover:-mt-3 transition-all duration-500"
+          className="h-mobHeight bg-cover bg-center relative cursor-pointer hover:-mt-3 hover:mb-3  transition-all duration-500"
         >
           <div className=" absolute bottom-7 w-10/12 right-0 left-0 m-auto">
             <div className=" border-b border-white pb-3">
@@ -281,7 +281,7 @@ const Stories = () => {
           style={{
             backgroundImage: `url(/assets/stories/${stories}/running-free.jpg)`,
           }}
-          className="h-mobHeight bg-cover bg-center relative cursor-pointer hover:-mt-3 transition-all duration-500"
+          className="h-mobHeight bg-cover bg-center relative cursor-pointer hover:-mt-3 hover:mb-3  transition-all duration-500"
         >
           <div className=" absolute bottom-7 w-10/12 right-0 left-0 m-auto">
             <div className=" border-b border-white pb-3">
@@ -305,7 +305,7 @@ const Stories = () => {
           style={{
             backgroundImage: `url(/assets/stories/${stories}/behind-the-waves.jpg)`,
           }}
-          className="h-mobHeight bg-cover bg-center relative cursor-pointer hover:-mt-3 transition-all duration-500"
+          className="h-mobHeight bg-cover bg-center relative cursor-pointer hover:-mt-3 hover:mb-3  transition-all duration-500"
         >
           <div className=" absolute bottom-7 w-10/12 right-0 left-0 m-auto">
             <div className=" border-b border-white pb-3">
@@ -329,7 +329,7 @@ const Stories = () => {
           style={{
             backgroundImage: `url(/assets/stories/${stories}/calm-waters.jpg)`,
           }}
-          className="h-mobHeight bg-cover bg-center relative cursor-pointer hover:-mt-3 transition-all duration-500"
+          className="h-mobHeight bg-cover bg-center relative cursor-pointer hover:-mt-3 hover:mb-3  transition-all duration-500"
         >
           <div className=" absolute bottom-7 w-10/12 right-0 left-0 m-auto">
             <div className=" border-b border-white pb-3">
@@ -353,7 +353,7 @@ const Stories = () => {
           style={{
             backgroundImage: `url(/assets/stories/${stories}/milky-way.jpg)`,
           }}
-          className="h-mobHeight bg-cover bg-center relative cursor-pointer hover:-mt-3 transition-all duration-500"
+          className="h-mobHeight bg-cover bg-center relative cursor-pointer hover:-mt-3 hover:mb-3  transition-all duration-500"
         >
           <div className=" absolute bottom-7 w-10/12 right-0 left-0 m-auto">
             <div className=" border-b border-white pb-3">
@@ -377,7 +377,7 @@ const Stories = () => {
           style={{
             backgroundImage: `url(/assets/stories/${stories}/dark-forest.jpg)`,
           }}
-          className="h-mobHeight bg-cover bg-center relative cursor-pointer hover:-mt-3 transition-all duration-500"
+          className="h-mobHeight bg-cover bg-center relative cursor-pointer hover:-mt-3 hover:mb-3  transition-all duration-500"
         >
           <div className=" absolute bottom-7 w-10/12 right-0 left-0 m-auto">
             <div className=" border-b border-white pb-3">
@@ -401,7 +401,7 @@ const Stories = () => {
           style={{
             backgroundImage: `url(/assets/stories/${stories}/somwarpet.jpg)`,
           }}
-          className="h-mobHeight bg-cover bg-center relative cursor-pointer hover:-mt-3 transition-all duration-500"
+          className="h-mobHeight bg-cover bg-center relative cursor-pointer hover:-mt-3 hover:mb-3  transition-all duration-500"
         >
           <div className=" absolute bottom-7 w-10/12 right-0 left-0 m-auto">
             <div className=" border-b border-white pb-3">
@@ -425,7 +425,7 @@ const Stories = () => {
           style={{
             backgroundImage: `url(/assets/stories/${stories}/land-of-dreams.jpg)`,
           }}
-          className="h-mobHeight bg-cover bg-center relative cursor-pointer hover:-mt-3 transition-all duration-500"
+          className="h-mobHeight bg-cover bg-center relative cursor-pointer hover:-mt-3 hover:mb-3  transition-all duration-500"
         >
           <div className=" absolute bottom-7 w-10/12 right-0 left-0 m-auto">
             <div className=" border-b border-white pb-3">
